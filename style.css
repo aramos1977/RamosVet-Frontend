@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.slogan{  
+  align-items: flex-end;
+  font-size: 24px;
+}
+
+@media ("max-inline-size:960px"){
+
+  .slogan{
+      align-items: center;
+  }
+
+  .slogan h3{
+      text-align: center;
+      font-size: 20px;
+      padding-inline-end: 30px;
+  }
+
+}
+
+:root{
+  --facebook: #3b5999;
+  --whatsapp: #15ed0933;
+  --github: rgb(206, 14, 227)44;
+  --youtube: rgb(212, 21, 21);
+}
+
+.container_RedS{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container_RedS ul li{
+  display: inline-block;
+  inline-size: 30px;
+  font-size: auto;
+}
+  
+.container{
+    background-color: #088aa4;
+}
+
+.collapse{
+  background-color: rgb(176, 176, 176);
+  
+}
+.separator {
+  border: 1px solid rgb(219, 219, 219);
+  block-size: 100%;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade.show {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+} 
+
+
+/* aca se works con el Footer - Pie de Pag */
+
+/* aca se works el color de los email */
+.email{
+    color: #1900fd;
+    font-size: 14px;
+  }
+  .email-educational{
+    color:#1900fd;
+  }
+
+
+  /* aca se works el color de los email */
+  .container-contact{
+    background-color: #133e5d;
+    color:#fffdfd;
+    margin:0px;
+    inline-size: 100%;
+    block-size: 50%;
+    padding:10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: start;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* aca se works con el footer o el pie de pag */
+  footer {
+    background-color: #133e5d;
+    color:#f9f9f9;
+    inline-size: 100%;
+    margin:0px;
+    padding:10px 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+  }
